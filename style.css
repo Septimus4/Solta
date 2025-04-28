@@ -1,0 +1,62 @@
+a {
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    color: #0c0b0b;
+    font-size: 0.8em;
+    font-weight: normal;
+}
+
+.marquee-container {
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    background-color: #f8f9fa;
+    padding: 10px 0;
+}
+
+.marquee-content {
+    display: flex;
+    animation: marquee 15s linear infinite;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.marquee-text {
+    font-size: 1.5rem;
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    color: #0c0b0b;
+}
+
+.marquee-text span {
+    padding-right: 20px;
+}
+
+.dot {
+    color: #0c0b0b;
+}
+
+/* Ensure no extra margin or gap between repeating elements */
+.marquee-content>* {
+    flex-shrink: 0;
+}
+
+/* Adjust padding to maintain space between last and first element */
+.marquee-text:last-child span:last-child {
+    padding-right: 0;
+}
+
+/* Hide the default caret (arrow) on dropdowns */
+.dropdown-toggle::after {
+    display: none !important;
+}

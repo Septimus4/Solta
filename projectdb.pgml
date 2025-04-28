@@ -1,0 +1,23 @@
+<project>
+    <documents></documents>
+    <dmdesigns>
+        <dmdesign active>
+            <dmdesignskill skill="bs5.colors">
+                <dmcolor key="primary" color="#00660e"/>
+                <dmcolor key="secondary" color="#3c1210"/>
+                <dmcolor key="info" color="#0dcaf0"/>
+                <dmcolor key="success" color="#198754"/>
+                <dmcolor key="warning" color="#ffc107"/>
+                <dmcolor key="danger" color="#dc3545"/>
+                <dmcolor key="white" color="#f6f8f5"/>
+                <dmcolor key="light" color="#efece8"/>
+                <dmcolor key="dark" color="#0c0b0b"/>
+            </dmdesignskill>
+            <dmdesignskill skill="fonts" text_family="Lato" headings_family="Oswald" text_weight="normal" text_color="$dark"></dmdesignskill>
+            <dmdesignskill skill="headings" h1_family="Oswald" h2_family="Oswald" h3_family="Lato" h4_family="Oswald" h5_family="Oswald" h1_color="$primary" h1_weight="bold" h2_weight="bold" h2_color="$dark" h3_weight="300" h3_color="$dark" h4_color="$primary" h4_weight="700" h5_color="$dark" h5_weight="600"></dmdesignskill>
+            <dmdesignskill skill="background" image_for_colors="true" advanced="true" filter_blur="0" filter_brightness="100" filter_contrast="100" filter_grayscale="0" filter_hue-rotate="0" filter_invert="0" filter_opacity="100" filter_saturate="100" filter_sepia="0" color="$white"></dmdesignskill>
+            <dmdesignskill skill="bootstrap" sizer="0"></dmdesignskill>
+        </dmdesign>
+    </dmdesigns>
+    <dmlocked bs5-colors-primary="false" bs5-colors-secondary="false" bs5-colors-info="false" bs5-colors-success="true" bs5-colors-warning="true" bs5-colors-danger="true" bs5-colors-white="true" bs5-colors-light="true" bs5-colors-dark="true" fonts-headings_family="true"></dmlocked>
+</project>

@@ -1,0 +1,19 @@
+# Website Repository
+
+This repository contains the full source code for Solta solta-studio.com.  
+It is intended as a backup, for public reference, and for educational purposes.
+
+## License
+
+- **Source Code**:  
+  The website's source code is licensed under the [GNU General Public License v3.0 (GPL-3.0)](https://www.gnu.org/licenses/gpl-3.0.en.html).  
+  This means you are free to use, modify, and share the code, provided that any derivative works are also licensed under the GPL-3.0.
+
+- **Media Assets**:  
+  All files in the `/media` directory — including images, photos, graphics, drawings, and similar content — are **NOT licensed under GPL-3.0**.  
+  These assets are reserved and protected by copyright © Solta 2025.  
+  They may not be reused, modified, or redistributed without prior written permission.
+
+## Contact
+
+For permissions regarding media files or any questions about this repository, please open an issue.
